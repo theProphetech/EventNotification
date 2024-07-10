@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300..700&display=swap');
+
+*,
+*::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-size: 16px;
+    font-family: noto serif;
+    font-family: Signika Negative;
+}
+
+body {
+    min-height: 100dvh;
+    width: 100%;
+    background-color: hsla(0, 5%, 90%, 1);
+    display: grid;
+    place-content: center;
+    color: black;
+}
+
+p {
+    margin-top: 0.5rem;
+    font-size: 13px;
+    /* padding-right: 1rem; */
+}
+
+h1 {
+    margin-top: 0.5rem;
+    text-transform: capitalize;
+    font-size: 1.3rem;
+}
+
+span {
+    display: block;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+    font-size: 14px;
+    /* font-weight: bold; */
+}
+
+.event--con {
+    max-width: 700px;
+
+}
+
+.evt--title>h1 {
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+}
+
+.noti--con {
+    margin-top: 1rem;
+}
+
+.noti--subCon>* {
+
+    /* border: 2px solid red; */
+}
+
+.noti--subCon {
+    margin-bottom: 1rem;
+    min-height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    background-color: white;
+    gap: 2rem;
+    padding: 1rem 2rem 1rem 1rem;
+    border-radius: 5px;
+}
+
+.noti--date {
+    position: relative;
+    padding: 1.1rem 1.5rem;
+    background-color: hsla(20, 60%, 75%, 0.3);
+    border-radius: 5px;
+}
+
+.noti--date2{
+    background-color: hsla(70, 60%, 75%, 0.3);
+
+}
+.noti--date3{
+    background-color: hsla(150, 60%, 75%, 0.3);
+
+}
+.noti--date4{
+    background-color: hsla(300, 60%, 75%, 0.3);
+
+}
+
+.day {
+    transform: translate(0, -4px);
+    text-transform: capitalize;
+}
+
+.time {
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+    transform: scale(1.2);
+
+}
+
+.noti--info {
+    position: relative;
+}
+
+.noti--info>h1 {
+    /* border: 2px solid red; */
+    transform: translate(0, 4px);
+
+}
+
+.cta {
+    position: relative;
+}
+
+.cta>a {
+    transform: translate(0, 14px);
+    display: inline-block;
+    width: max-content;
+}
